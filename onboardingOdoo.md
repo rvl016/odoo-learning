@@ -67,6 +67,11 @@
 ### Groups (permissões de usuários)
 1. Aplicação no framework em geral
 
+### Data
+1. ~~Criação de dados em .xml~~
+   
+  *Uso de campos relacionais (como declarar relacionamentos) e uso de eval para datetime*
+
 # Extendendo módulos do odoo
 
 *Definição de um projeto que extenda algum módulo do odoo (o que e qual?)*
