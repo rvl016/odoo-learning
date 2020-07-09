@@ -14,6 +14,7 @@
     *Entendido o significado dos relacionamentos `One2many`, `many2One` e `Many2many`, e como eles são refletidos em um objeto do model.*
 
     3. ~~Related Fields~~
+
     *Entendido que são fields computados que apenas fazem proxy de outros fields em models relacionados.*
 
 2. ~~Entendimento de alguns decorators do módulo `api`~~
@@ -35,7 +36,7 @@
 
 2. Entendimento de outras funções além da associação a uma view
 
-*Entendido o uso de actio para criação de buttons com funcionalidades variadas*
+*Entendido o uso de action para criação de buttons com funcionalidades variadas (`ir.actions.server`)*
 
 ### Views
 
@@ -44,10 +45,14 @@
 
     1. ~~Uso básico~~
     2. ~~Uso de `widgets`~~
+
         *São formas alternativas para exibição dos dados, útil para exibir fields relacionais *2many*
 
 3. Uso de `groupby`
 
+4. ~~Uso de `filter`~~
+
+    *Uma tag que pode ser usada no search view para filtrar ou agrupar os records de uma tree view*
 
 #### tree (list)
 1. ~~Entendimento da estruturação básica~~
@@ -69,6 +74,15 @@
 
 #### activity
 1. Entendimento da estruturação básica
+
+#### search
+1. ~~Entendimento da estruturação básica~~
+    
+    *`field` aqui tem outro significado, o de oferecer buscas por field*
+
+2. ~~Set up de Group by e Filter pré-definidos~~
+
+    *Tudo por tag `field`*
 
 ### Groups (permissões de usuários)
 1. Aplicação no framework em geral
