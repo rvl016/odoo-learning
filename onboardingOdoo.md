@@ -13,11 +13,12 @@
 
     *Entendido o significado dos relacionamentos `One2many`, `many2One` e `Many2many`, e como eles são refletidos em um objeto do model.*
 
-    3. Related Fields
+    3. ~~Related Fields~~
+    *Entendido que são fields computados que apenas fazem proxy de outros fields em models relacionados.*
 
 2. ~~Entendimento de alguns decorators do módulo `api`~~
 
-*Entendido o uso de decorators `constrains` e `depends`.* 
+*Entendido o uso de decorators `constrains`, `depends` e `models`.* 
 
 
 ## Actions e views
@@ -34,13 +35,16 @@
 
 2. Entendimento de outras funções além da associação a uma view
 
+*Entendido o uso de actio para criação de buttons com funcionalidades variadas*
+
 ### Views
 
 1. Uso de `button` 
 2. Uso de `field`
 
     1. ~~Uso básico~~
-    2. Uso de `widgets`
+    2. ~~Uso de `widgets`~~
+        *São formas alternativas para exibição dos dados, útil para exibir fields relacionais *2many*
 
 3. Uso de `groupby`
 
@@ -56,7 +60,9 @@
 
 2. Entendimento de como esconder fields computados no form de criação de record
 3. Uso de outras tags, como `notebook` e `page`
-4. Entendimento de como usar views para exibição de relacionamentos *2many
+4. ~~Entendimento de como usar views para exibição de relacionamentos *2many~~
+
+    *uso de Widgets*
 
 #### kanban
 1. Entendimento da estruturação básica
